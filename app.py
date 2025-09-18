@@ -331,7 +331,7 @@ def render_editable_pump(row, idx, df):
                     df.loc[df["ID"] == row["ID"], "Patient"] = new_patient_val
                 if save_db(df):
                     st.success("Saved!")
-                    st.experimental_rerun()
+                    st.rerun()
                 else:
                     st.error("Save failed.")
             except Exception as e:
