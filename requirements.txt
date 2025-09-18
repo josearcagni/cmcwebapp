@@ -5,3 +5,5 @@ streamlit-authenticator==0.4.2
 Pillow
 plotly
 python-dateutil
+openpyxl
+
