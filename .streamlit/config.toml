@@ -1,0 +1,7 @@
+[theme]
+# Use CMC Pharma’s corporate colors:
+primaryColor = "#049484"            # Example: deep blue accent 
+backgroundColor = "#FFFFFF"         # White background 
+secondaryBackgroundColor = "#cdeae7" # Light teal sidebar 
+textColor = "#333333"               # Dark grey text 
+font = "Karla"

@@ -1,0 +1,32 @@
+credentials:
+  usernames:
+    admin:
+      email: arcagnij@gmail.com
+      name: Admin
+      password: $2b$12$M600yj5U37FtrvvdD0WsNuw6Z7ZGaIk6o5Ov18HQWU8Z1njbmItOK
+      role: admin
+
+    user1:
+      email: jarcagniriv@unav.es
+      name: User One
+      password: $2b$12$M600yj5U37FtrvvdD0WsNuw6Z7ZGaIk6o5Ov18HQWU8Z1njbmItOK
+      role: user
+      client: PYXIS - COLOMBIA
+
+    user2:
+      email: user2@company.com
+      name: User Two
+      password: $2b$12$M600yj5U37FtrvvdD0WsNuw6Z7ZGaIk6o5Ov18HQWU8Z1njbmItOK
+      role: user
+      client: BIODEC - ARGENTINA
+
+cookie:
+  name: cmc_cookie
+  key: cmc_secret_key_123
+  expiry_days: 30
+
+preauthorized:
+  emails:
+    - arcagnij@gmail.com
+    - jarcagniriv@unav.es
+    - user2@company.com
